@@ -33,11 +33,13 @@ right side of the window.
 Reference
 =================
 Sidebar CSS style from https://dev.to/clairecodes/how-to-make-a-sticky-sidebar-with-two-lines-of-css-2ki7
+
 1.html, 2.html, 3.html from http://www.gutenberg.org/browse/scores/top
 
 Modifications in part 1
 =================
 For each html (1.html, 2.html, 3.html), I add a css file link in the head and apply the css theme to the html files. The css file
 name is "theme.css" in the gutenburg directory. 
+
 For the picture part, I delete the original style applied directly on the images in the html files and apply a class called ".image" to the pictures.
 
