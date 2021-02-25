@@ -1,0 +1,146 @@
+.head {
+	text-align: center;
+	padding: 12px;
+	background: lightblue;
+}
+
+body {
+	padding:0px;
+	font-family:"Georgia", Times, serif;
+	color:#000000;
+	font-size: 150%;
+}
+
+ul {
+	margin-left:auto;
+	margin-right: auto;
+	list-style-type:disc;
+}
+
+ul.awards {
+	position: relative;
+	right: -70px;
+	top:-10px;
+	font-size: 75%;
+}
+
+ul.topbar  {
+	padding:5px;
+	width:100%;
+}
+
+.topbar li{
+	 display:inline-block;
+	 margin: 0px;
+}
+
+.topbar li a{
+	 font-size:125%;
+	 color:#000000;
+	 text-align:center;
+	 line-height:50px;
+	 display:inline-block;
+	 text-decoration:underline;
+	 padding: 20px;
+	 margin-top:5px;
+}
+.topbar li a:hover{
+	color:ivory;
+	text-decoration:underline;
+}
+
+li {
+	font-size: 150%;
+	margin: 20px;
+}
+
+img {
+	float:left;
+	padding-right: 40px;
+	margin-left: 40px;
+}
+
+div.picture {
+	padding: 20px;
+}
+
+div.paragraph {
+	margin: 20px;
+}
+
+h1.title {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 250%;
+}
+
+h2 {
+	font-size: 200%;
+	margin: 20px;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+p.intro {
+	font-size: 150%;
+	position:relative;
+	right: 0px;
+	line-height: 1.5em;
+	margin-top: 20px;
+}
+
+pre {
+	border: 1px solid;
+	box-shadow: 5px 10px #F3EEEC;
+	line-height: 2em;
+	margin: 20px;
+	font-family: monospace;
+	font-size: 125%;
+	padding-top: 25px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sidebar {
+  width: 25%;
+  min-height: 200px;
+  overflow: auto;
+  position: sticky;
+  height: 650px;
+  top: 10%;
+  background: ivory;
+  box-shadow: 5px 5px #ECEFEF;
+}
+
+.main {
+  width: 1300px;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+	justify-content: space-between;
+	display: flex;
+}
+
+h2.sideheader {
+	text-align: center;
+	margin: 0px;
+	margin-top: 10px;
+	font-size: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3.sideheader {
+	margin-left:10px;
+	font-family: Arial, Helvetica, sans-serif; 
+	line-height: 1.5px;
+	margin-top: 1.5em;
+}
+
+ul.sideul li {
+	font-size: 0.75em;
+	margin-left: 40px;
+	margin-bottom: 5px;
+}
+

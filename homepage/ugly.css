@@ -1,0 +1,150 @@
+.head {
+	text-align: center;
+	padding: 12px;
+	background: pink;
+}
+
+body {
+	padding:0px;
+	font-family:"Georgia", Times, serif;
+	color:#000000;
+	font-size: 150%;
+	background: linear-gradient(#70FF3B, yellow);
+}
+
+ul {
+	margin-left:auto;
+	margin-right: auto;
+	list-style-type: circle;
+}
+
+ul.awards {
+	font-size: 75%;
+}
+
+ul.topbar  {
+	padding:5px;
+	width:100%;
+}
+
+.topbar li{
+	 display:inline-block;
+	 margin: 0px;
+}
+
+.topbar li a{
+	 font-size:125%;
+	 color:#000000;
+	 line-height:50px;
+	 display:inline-block;
+	 text-decoration:underline;
+	 padding: 20px;
+	 margin-top:5px;
+	 border: 2em solid;
+}
+.topbar li a:hover{
+	color:ivory;
+	text-decoration:underline;
+}
+
+li {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+img {
+	padding-right: 40px;
+	margin-left: 40px;
+	width: 100%;
+	height: 40%;
+}
+
+div.picture {
+	padding: 20px;
+	height:500px;
+}
+
+div.paragraph {
+	margin: 0px;
+}
+
+h1.title {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 250%;
+	background-image: linear-gradient(red, pink);
+}
+
+h2 {
+	font-size: 200%;
+	margin: 20px;
+	font-family: Arial, Helvetica, sans-serif; 
+	text-align: center;
+}
+
+p.intro {
+	font-size: 150%;
+	position:relative;
+	right: 0px;
+	line-height: 1.5em;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+pre {
+	line-height: 1em;
+	margin: 0px;
+	font-family: monospace;
+	font-size: 125%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 10px;
+	font-style: oblique;
+}
+
+.sidebar {
+  width: 25%;
+  min-height: 200px;
+  overflow: auto;
+  position: fixed;
+  height: 650px;
+  top: 10%;
+  right: 0;
+  background: aqua;
+  border: solid #005464;
+  box-shadow: 5px 5px #ECEFEF;
+  font-style: italic;
+}
+
+.main {
+  width: 1300px;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+	justify-content: space-between;
+	display: flex;
+}
+
+h2.sideheader {
+	text-align: center;
+	margin: 0px;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3.sideheader {
+	margin-left:10px;
+	font-family: Arial, Helvetica, sans-serif; 
+	line-height: 1.5px;
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+ul.sideul li {
+	margin-left: 40px;
+	margin-bottom: 5px;
+}
+
