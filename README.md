@@ -34,7 +34,10 @@ Reference
 =================
 Sidebar CSS style from https://dev.to/clairecodes/how-to-make-a-sticky-sidebar-with-two-lines-of-css-2ki7
 
-1.html, 2.html, 3.html from http://www.gutenberg.org/browse/scores/top
+html files from http://www.gutenberg.org/browse/scores/top
+1.html and associated picture from http://www.gutenberg.org/ebooks/215
+2.html and associated picture from http://www.gutenberg.org/ebooks/35
+3.html and associated picture from http://www.gutenberg.org/ebooks/36
 
 Modifications in part 1
 =================
